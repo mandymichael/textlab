@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Text Lab | RSS Feed]]></title>
+        <description><![CDATA[Text lab, a resource for using, styling and creating text on the web. Whether it is for fun, practical css, accessibility and more. Exploring modern text approaches.]]></description>
+        <link>https://textlab.dev</link>
+        <image>
+            <url>https://textlab.dev/favicon-32x32.png</url>
+            <title>Text Lab | RSS Feed</title>
+            <link>https://textlab.dev</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 20 Dec 2023 06:20:38 GMT</lastBuildDate>
+        <atom:link href="https://textlab.dev/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 20 Dec 2023 06:20:38 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2023, Mandy Michael]]></copyright>
+        <item>
+            <title><![CDATA[How to use a color font]]></title>
+            <link>https://textlab.dev/posts/using-color-fonts</link>
+            <guid isPermaLink="true">https://textlab.dev/posts/using-color-fonts</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Performance benefits of Variable Fonts]]></title>
+            <link>https://textlab.dev/posts/performance-benefits-variable-fonts</link>
+            <guid isPermaLink="true">https://textlab.dev/posts/performance-benefits-variable-fonts</guid>
+            <pubDate>Mon, 09 Mar 2020 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
