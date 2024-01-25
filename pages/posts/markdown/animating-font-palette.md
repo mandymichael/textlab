@@ -31,16 +31,14 @@ As a brief introduction to save you reading the whole post about Color Fonts, th
 <div class="codepen"><iframe height="400" style="width: 100%;" scrolling="no" title="Animating font-palette" src="//codepen.io/mandymichael/embed/poYWayY/?height=300&theme-id=dark&default-tab=result" frameBorder="no"  allowfullscreen="true">
 </iframe></div>
 
-_Note: please make sure you have updated to the latest Chrome (Chrome 121) to see the transition. It is not currently supported in the other browsers._
+*Note: please make sure you have updated to the latest Chrome (Chrome 121) to see the transition. It is not currently supported in the other browsers.*
 
 First thing we are going to need is a color font that supports color palettes, I've chosen [Bungee Spice](https://fonts.google.com/specimen/Bungee+Spice) by David Jonathon Ross, it's available on [Google Fonts](https://fonts.google.com/specimen/Bungee+Spice). If you aren't sure if the font you want to use supports font palettes you can load it up into [Wakamai Fondue](https://wakamaifondue.com/) and it well let you know what palettes are available and how many colors in each one.
 
 Assuming you've loaded in the google font we'll set up our html next with just a simple h1.
 
 ```html
-
 <h1>Jello</h1>
-
 ```
 
 Next up we need to set up the `font-palette-values` function in the CSS. As Bungee Spice only comes with one palette I'm going to create two new ones to use for the transition. The first one I'll name `--base` and the transition colors I'll call `--transition`. Because I want to use a custom palette I'll add in the `override-colors` property alongside the `font-family` property. This particular font only has two colours in the palette so starting from 0, I've added the two colours I want in. Next I create another palette the same way with the name `--transition` but change the colours to the secondary set. I've used the hex code from position 1 in the `--base` palette as the start position (0) in my `--transition` palette, but you can use whatever colours you want.
