@@ -9,21 +9,21 @@
             <link>https://textlab.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 Dec 2023 06:20:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 07:03:06 GMT</lastBuildDate>
         <atom:link href="https://textlab.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 Dec 2023 06:20:38 GMT</pubDate>
-        <copyright><![CDATA[All rights reserved 2023, Mandy Michael]]></copyright>
+        <pubDate>Thu, 25 Jan 2024 07:03:06 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
+        <item>
+            <title><![CDATA[Animating Font Palette]]></title>
+            <link>https://textlab.dev/posts/animating-font-palette</link>
+            <guid isPermaLink="true">https://textlab.dev/posts/animating-font-palette</guid>
+            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How to use a color font]]></title>
             <link>https://textlab.dev/posts/using-color-fonts</link>
             <guid isPermaLink="true">https://textlab.dev/posts/using-color-fonts</guid>
             <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Performance benefits of Variable Fonts]]></title>
-            <link>https://textlab.dev/posts/performance-benefits-variable-fonts</link>
-            <guid isPermaLink="true">https://textlab.dev/posts/performance-benefits-variable-fonts</guid>
-            <pubDate>Mon, 09 Mar 2020 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

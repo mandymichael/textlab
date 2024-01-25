@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function HeadBlock({title, description, url, keywords, image, customStyles}) {
+export default function HeadBlock({title, description, url, keywords, image, customStyles, canonical}) {
 
     return (
         <Head>
@@ -30,6 +30,7 @@ export default function HeadBlock({title, description, url, keywords, image, cus
             <meta name="twitter:image" content={`https://textlab.dev${image}`} />
 
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href={canonical} />
 
 
         </Head> 

@@ -37,10 +37,12 @@ export default function Home({ recentPosts, articles, featuredPost }) {
           <p className={HomeHeader.volume}><span className={HomeHeader.volumeText}>Vol</span><span className={HomeHeader.volumeNum}>1.0</span></p>
         </section>
 
-        <FeaturedPost featuredPost={featuredPost} />
+        {featuredPost.length > 0 && <FeaturedPost featuredPost={featuredPost} /> }
 
-        <PostList posts={recentPosts} title="Recent Posts" tagType="parent" />
-        <PostList posts={articles} title="Articles" columns={4} postType="article" showMore="true" />
+        {recentPosts.length > 0 && <PostList posts={recentPosts} title="Recent Posts" tagType="parent" />}
+        {/* {articles.length > 0 && <PostList posts={articles} title="Articles" columns={4} postType="article" showMore="true" />} */}
+
+        
       </main>
 
       <Footer />

@@ -29,6 +29,7 @@ export default function Post({ postData  }) {
         keywords={postData.tags}
         image={postData.featureFont.image}
         customStyles={postData.slug === 'roslindale' && 'roslindale'}
+        canonical={postData.canonical}
       />
       <PostMeta dateTime={postData.date} tags={postData.tags} />
       <article>
