@@ -7,8 +7,8 @@ import Generic from '../../styles/Generic.module.css';
 import { getSortedPostsData } from '../../lib/posts';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import FeaturedPost from '../../components/featuredPost';
 import PostList from '../../components/postList';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function Home({ articles, tag }) {
 
@@ -19,6 +19,7 @@ export default function Home({ articles, tag }) {
         <title>Text Lab</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
 
       <main className={HomeStyles.main} >
         <Header/>

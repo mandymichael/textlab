@@ -11,6 +11,7 @@ import Footer from '../components/footer';
 import FeaturedPost from '../components/featuredPost';
 import PostList from '../components/postList';
 import HeadBlock from '../components/head';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function Home({ articles, featuredList, displayList }) {
 
@@ -25,6 +26,8 @@ export default function Home({ articles, featuredList, displayList }) {
             keywords="Text lab, articles, font demos, fonts"
             image="/images/metadata/main-og2.jpg"
         />
+        <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+
         <main className={HomeStyles.main} >
             <Header/>
         

@@ -5,6 +5,7 @@ import TextStyles from '../styles/Text.module.css';
 import HomeStyles from '../styles/Home.module.css';
 import ContainerStyles from '../styles/Container.module.css';
 import PostStyles from '../styles/PostContent.module.css';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -13,7 +14,8 @@ export default function About() {
     return (
         <div className={Generic.pageContainer}>
             <HeadBlock title="About" description="About Text Lab" url="https://textlab.dev/about" image="/images/metadata/main-og3.jpg" />
-            
+            <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+
             <main className={HomeStyles.main}>
             <Header/>
 

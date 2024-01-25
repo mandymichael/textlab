@@ -6,6 +6,7 @@ import HeadBlock from '../../components/head';
 import dynamic from 'next/dynamic';
 import { RoslindaleMouseControl, marqueeScroll } from '../../lib/variablefonts';
 import generateRssFeed from '../../lib/generateRSSFeed';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const PostContent = dynamic(() => import('../../components/postContent'), {
   ssr: true,
@@ -31,6 +32,7 @@ export default function Post({ postData  }) {
         customStyles={postData.slug === 'roslindale' && 'roslindale'}
         canonical={postData.canonical}
       />
+      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
       <PostMeta dateTime={postData.date} tags={postData.tags} />
       <article>
         <PostHeader 

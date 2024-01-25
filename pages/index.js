@@ -8,6 +8,7 @@ import Footer from '../components/footer';
 import PostList from '../components/postList';
 import FeaturedPost from '../components/featuredPost';
 import HeadBlock from '../components/head.js';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const description="Articles about text, text properties, accessibility, performance, usage, demos and explanations" 
 const keywords ='Text lab, text properties, css, mandy michael'
@@ -23,6 +24,7 @@ export default function Home({ recentPosts, articles, featuredPost }) {
         keywords={keywords}
         image="/images/metadata/main-og3.jpg"
       />
+      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
 
       <main className={HomeStyles.main} >
         <Header/>

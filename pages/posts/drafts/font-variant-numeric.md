@@ -31,7 +31,6 @@ Fonts will sometimes come with a number of different glyphs that can be used to 
 There are a number of different values for `font-variant-numeric` you can check out the [font-variant-numeric MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric) for a full list, in this article i'll demonstrate some of the options which I find most useful.
 
 ```css 
-
 font-variant-numeric: slashed-zero;
 font-variant-numeric: lining-nums;
 font-variant-numeric: tabular-nums;

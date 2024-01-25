@@ -18,6 +18,7 @@ export default function Home({ articles, tag }) {
         <title>Text Lab</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
 
       <main className={HomeStyles.main} >
         <Header/>

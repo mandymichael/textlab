@@ -9,15 +9,21 @@
             <link>https://textlab.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jan 2024 07:42:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 08:09:50 GMT</lastBuildDate>
         <atom:link href="https://textlab.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jan 2024 07:42:09 GMT</pubDate>
+        <pubDate>Thu, 25 Jan 2024 08:09:50 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
         <item>
             <title><![CDATA[Animating Font Palette]]></title>
             <link>https://textlab.dev/posts/animating-font-palette</link>
             <guid isPermaLink="true">https://textlab.dev/posts/animating-font-palette</guid>
             <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Using Font Variant Numeric]]></title>
+            <link>https://textlab.dev/posts/font-variant-numeric</link>
+            <guid isPermaLink="true">https://textlab.dev/posts/font-variant-numeric</guid>
+            <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to use a color font]]></title>
