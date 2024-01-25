@@ -56,7 +56,7 @@ If we take a look at the image below it has a table with  `tabular-nums`on the l
 
 Most modern professional fonts will contain both lining numerals and old style numerals (though not always) additionally they will not always include `tabular-nums` so if you are dealing with a lot of data in your applications you should absolutely check the availability of this in your fonts before committing at the design phase.
 
-If the font supports it you can also utilise different styles for both ordinals (numbers that express position in a series e.g. 1st, 2nd, 3rd) and fractions. 
+If the font supports it you can also utilise different styles for ordinals (numbers that express position in a series e.g. 1st, 2nd, 3rd) and fractions. 
 
 ![Image demonstrating the difference between the normal state for ordinals, or utilising the ordinals style represented like a superscript](/images/post-assets/font-numeric/ordinals.png)
 
@@ -66,9 +66,10 @@ When it comes to ordinals, if you want them to display as an ordinal (kind of li
 font-variant-numeric: ordinal;
 ```
 
-![Image demonstrating the difference between the difference between stacked, diagonal or regular fractions](/images/post-assets/font-numeric/fractions.png)
+There are two options for fractions, `diagonal` and `stacked`the most common style is the diagonal fraction, however they are typically only available for a common set of fractions, e.g. 1/2, 1/3 etc. Unless specifically requested it's rare for a font to have a variety of combinations. However, the regular set is useful for things like recipe sites. A "Horizontal fraction" is generally considered what you would get by using the forward slash e.g. 1/2. They are harder to read than diagonal fractions, they take up more space, and also, they don't look as good as the pre-prepared diagonal fractions so if you think you'll be needing fractions it's good to investigate what fonts will support your needs.
 
-With fractions we have two options, `diagonal` and `stacked`the most common style is the diagonal fraction, however they are typically only available for a common set of fractions, e.g. 1/2, 1/3 etc. Unless specifically requested it's rare for a font to have a variety of combinations. However, the regular set is useful for things like recipe sites. A "Horizontal fraction" is generally considered what you would get by using the forward slash e.g. 1/2. They are harder to read than diagonal fractions, they take up more space, and also, they don't look as good as the pre-prepared diagonal fractions so if you think you'll be needing fractions it's good to investigate what fonts will support your needs.
+
+![Image demonstrating the difference between the difference between stacked, diagonal or regular fractions](/images/post-assets/font-numeric/fractions.png)
 
 Stacked fractions are even less common and are mainly reserved for mathematical equations, they aren't commonly supported in fonts so you'd really have to look around for them. (As an aside stacked fractions are also referred to as nut fractions which I thought was interesting). These ones if you're wondering are part of the  [Surveyor Font](https://www.typography.com/fonts/surveyor/overview).
 
