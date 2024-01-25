@@ -4,9 +4,8 @@ date: '2024-01-09'
 summary: The font-variant-numeric CSS property allows us to control alternate glyphs for numbers, fractions, and ordinal markers.
 tags:
     - font-variant
-    - font-variant-numeric
     - article
-    - data
+    - numbers
 featureFont: {  
     image: /images/post-assets/font-numeric/fontnumeric-feature.jpg
 }

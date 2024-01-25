@@ -20,7 +20,7 @@ export default function PostMeta({dateTime, tags}) {
                     <h2 className={`${TagListStyles.tagTitle} ${TextStyles.postMetaText}`}>Tags:</h2>
 
                     <ul className={TagListStyles.tags}>
-                        {tags.slice(0,4).map((tag, index) => (
+                        {tags.slice(0,3).map((tag, index) => (
                             <li className={`${TagListStyles.tag} ${TextStyles.metaDataText}`} key={`${tag}${index}`}>
                                 <Link href={`/tags/${tag}`}>{tag}</Link>
                             </li>
