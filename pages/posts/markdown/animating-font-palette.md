@@ -63,7 +63,7 @@ Next up we can add a transition in with the `transition` property, this can be w
 
 h1 {
 	font-family: "Bungee Spice", sans-serif;
-	font-palette: --effect;
+	font-palette: --base;
 	transition: ease 250ms font-palette;
 }
 
