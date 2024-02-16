@@ -1,7 +1,7 @@
 ---
 title: Making the most of ligatures
 date: '2024-02-15'
-summary: Making use of the font-variant-ligatures CSS property gives access too alternate glyphs within fonts that combine one or more glyphs to improve readability.
+summary: Making use of the font-variant-ligatures CSS property gives access to alternate glyphs within fonts that combine one or more glyphs to improve readability.
 tags:
     - font-variant
     - article
