@@ -9,10 +9,16 @@
             <link>https://textlab.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jan 2024 23:21:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Feb 2024 03:14:30 GMT</lastBuildDate>
         <atom:link href="https://textlab.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jan 2024 23:21:29 GMT</pubDate>
+        <pubDate>Fri, 16 Feb 2024 03:14:30 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
+        <item>
+            <title><![CDATA[Making the most of ligatures]]></title>
+            <link>https://textlab.dev/posts/font-variant-ligatures</link>
+            <guid isPermaLink="true">https://textlab.dev/posts/font-variant-ligatures</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Animating Font Palette]]></title>
             <link>https://textlab.dev/posts/animating-font-palette</link>
