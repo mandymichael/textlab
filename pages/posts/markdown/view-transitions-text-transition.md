@@ -26,7 +26,7 @@ First up, I want to say that for basic page transitions, it's super easy. You do
 
 Before we get started, you can skip all this rambling and [View the Demo](https://000699422.codepen.website/) or Check out the [Project on Codepen](https://codepen.io/mandymichael/project/editor/AOvxRk#).
 
-I started off using a Codepen Project for [the demo](https://000699422.codepen.website/) so that I could created two separate pages. Then on each of the HTML pages I added in the view transition meta tag. This is required for the transitions to work so don't forget it.
+I started off using a Codepen Project for [the demo](https://000699422.codepen.website/) so that I could create two separate pages. Then on each of the HTML pages I added in the view transition meta tag. This is required for the transitions to work so don't forget it.
 
 ```html
   <meta name="view-transition" content="same-origin" />
