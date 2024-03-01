@@ -64,7 +64,7 @@ Then we need to add the pseudo element in so I can create the animation, I used 
 ```
 
 
-The animation aspect just works the same way that it does for regular animations, I used clip path to "reveal" the text on the new page. It works pretty similar to the original text effect except instead of having it just spin in place I had it spin in and out. 
+The animation aspect is just a regular CSS animation, so you don't have to do anything fancy here. I used `clip-path` to "reveal" the text on the new page. It works pretty similar to the original text effect except instead of having it just spin in place I had it spin in and out. 
 
 ```css
 @keyframes spin {
