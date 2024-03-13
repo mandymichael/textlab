@@ -17,7 +17,7 @@ card: {
 
 As a lover of CSS Text Effects I love seeing posts and demos showing fun and cool text effects, but I wanted to do a quick post on the technique of using `data-attributes` and the CSS `content` property to create layers and why it can cause problems for Accessibility.
 
-I'll be the first to admit, I used to do this, in fact, some of my [Text effect demos](https://codepen.io/collection/DamKJW) still use this technique (I'm in the process of updating them). I even [did a talk about it way back in 2018](https://www.youtube.com/watch?v=5qgUC_z8syw&list=PLo3w8EB99pqLQj3cOk2UCjA8szdseqs7b). But here is the thing, it's not great for accessibility and I regret using this approach. 
+I'll be the first to admit, I used to do this, in fact, some of my [Text effect demos](https://codepen.io/collection/DamKJW) still use this technique (I'm in the process of updating them). I even [did a talk about it way back in 2018](https://www.youtube.com/watch?v=5qgUC_z8syw&list=PLo3w8EB99pqLQj3cOk2UCjA8szdseqs7b). 
 
 The technique is fairly simple, instead of having multiple HTML elements on the page, you can use one and then add a `data-attribute` with a copy of that text.
 
