@@ -88,7 +88,7 @@ By applying the alternative text with the content property, it now will only rea
 
 There used to be an issue with Safari having a different syntax for the alternative text, but I tested this and it does not appear to be a problem anymore, the above code worked fine, so I am assuming the browsers have all aligned on this.
 
-Overall, the second option would be better on all fronts, we could have the benefit of simpler HTML without the accessibility issues. However due to it's lack of support in Firefox I wouldn't currently recommend it and instead suggest the first option until it's supported across the board. 
+Overall, the second option would be better on all fronts, we could have the benefit of simpler HTML without the accessibility issues. However due to it's lack of support in Firefox I wouldn't currently recommend it and instead suggest the first option until it's supported across the board. I have also not tested it with other screen readers as I don't currently have access to them so I can't guarantee it will work everywhere. I would be keen to know if anyone has the information on that. 
 
 Whatever we create for the web should aim to be usable by as many people and technologies as possible so by making sure your text is accessible you will end up with a much better functional user experience whether you are using assistive technology, or not. 
 
