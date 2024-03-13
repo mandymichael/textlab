@@ -102,7 +102,7 @@ This creates the animation effect of the text being "revealed" I really liked ho
 
 As an aside, if you will allow me, it would  be great if Chrome had the shape/path editor in dev tools like Firefox has so that I could more easily edit my clip-path in the browser for this effect, but unfortunately it does not.
 
-I also ended up adding in the `view-transition-name` on the `:root` element, as this prevented the default animation from happening on my root because I didn't want it!
+I also ended up adding in the `view-transition-name` on the `:root` element, this prevented the default animation from happening.
 
 ```css
 :root {
