@@ -9,12 +9,12 @@
             <link>https://textlab.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 Mar 2024 03:26:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Mar 2024 04:14:02 GMT</lastBuildDate>
         <atom:link href="https://textlab.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 Mar 2024 03:26:44 GMT</pubDate>
+        <pubDate>Wed, 13 Mar 2024 04:14:02 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
         <item>
-            <title><![CDATA[You shouldn't use data-attributes for text effects]]></title>
+            <title><![CDATA[The problem with data-attributes for text effects]]></title>
             <link>https://textlab.dev/posts/data-attributes-and-text-effects</link>
             <guid isPermaLink="true">https://textlab.dev/posts/data-attributes-and-text-effects</guid>
             <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
