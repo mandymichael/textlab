@@ -41,8 +41,8 @@ export default function Home({ recentPosts, articles, featuredPost }) {
 
         {featuredPost.length > 0 && <FeaturedPost featuredPost={featuredPost} /> }
 
-        {recentPosts.length > 0 && <PostList posts={recentPosts} title="Recent Posts" tagType="parent" />}
-        {/* {articles.length > 0 && <PostList posts={articles} title="Articles" columns={4} postType="article" showMore="true" />} */}
+        {/* {recentPosts.length > 0 && <PostList posts={recentPosts} title="Recent Posts" tagType="parent" />} */}
+        {articles.length > 0 && <PostList posts={articles} title="Articles" columns={4} postType="article" showMore="true" />}
 
         
       </main>
