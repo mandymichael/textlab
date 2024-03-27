@@ -80,7 +80,7 @@ h1::before {
 }
 ```
 
-By applying the alternative text with the content property, it now will only read out the text once, and ignore the text in the `content` property. The reason this works is that the "alternative" text feature is essentially intended to allow us to provide better more descriptive text for things like Icons. So if you used the content property to add a cross icon, you could add alternative text of "Close". In our case however we are telling the browsers that our content is only meant for decoration and can be ignored.
+By applying the alternative text with the content property, it now will only read out the text once, and ignore the text in the `content` property. The reason this works is that the "alternative" text feature is essentially intended to allow us to provide better more descriptive text for things like Icons. So if you used the content property to add a cross icon, you could add alternative text of "Close". In our case however we are setting it to blank essentially telling the browsers that our content is only meant for decoration and can be ignored. 
 
 <div className="videoPlayer">
 <iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/yyiONhTckI8?rel=0&amp;controls=0&amp;showinfo=0&amp;playlist=yyiONhTckI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
@@ -88,7 +88,9 @@ By applying the alternative text with the content property, it now will only rea
 
 There used to be an issue with Safari having a different syntax for the alternative text, but I tested this and it does not appear to be a problem anymore, the above code worked fine, so I am assuming the browsers have all aligned on this.
 
-Overall, the second option would be better on all fronts, we could have the benefit of simpler HTML without the accessibility issues. However due to it's lack of support in Firefox I wouldn't currently recommend it and instead suggest the first option until it's supported across the board. I have also not tested it with other screen readers as I don't currently have access to them so I can't guarantee it will work everywhere. I would be keen to know if anyone has the information on that. 
+Overall, the second option would be better on all fronts, we could have the benefit of simpler HTML without the accessibility issues. However due to it's lack of support in Firefox I wouldn't currently recommend it and instead suggest the first option until it's supported across the board. If you're interested in the status of this you can [check out the open bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1281158).
+
+I have also not tested it with other screen readers as I don't currently have access to them so I can't guarantee it will work everywhere. 
 
 Whatever we create for the web should aim to be usable by as many people and technologies as possible so by making sure your text is accessible you will end up with a much better functional user experience whether you are using assistive technology, or not. 
 
