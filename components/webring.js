@@ -91,8 +91,8 @@ export default function MandysWebring() {
                         if (prevSiteIndex === -1) prevSiteIndex = sites.length - 1;
         
                         let nextSiteIndex = matchedSiteIndex + 1;
-                        if (nextSiteIndex > sites.length) nextSiteIndex = 0;
-        
+                        if (nextSiteIndex > sites.length - 1) nextSiteIndex = 0;
+                        
                         const randomSiteIndex = this.getRandomInt(0, sites.length - 1);
         
                         const cp = `
