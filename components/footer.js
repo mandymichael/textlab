@@ -2,6 +2,7 @@ import FooterStyles from '../styles/Footer.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import {LinkedIn, Github } from './icons'
+import MandysWebring from './webring';
 
 export default function Footer() {
     return (
@@ -9,6 +10,8 @@ export default function Footer() {
             <div className={FooterStyles.footerBlock}>
                 <Image src="/images/Logo.svg" alt="Text Lab" className={FooterStyles.logo} width="80" height="80" />
             </div>
+
+            <MandysWebring />
             
             <div className={FooterStyles.footerLinks}>
                 <nav className={FooterStyles.nav}>
