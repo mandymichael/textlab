@@ -42,7 +42,7 @@
     margin-top: 1em;
     border-top: 3px solid #17171C;
     border-bottom: 1px solid #17171C;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-stretch: 25%;
     font-variation-settings: 'opsz' 31;
 }
