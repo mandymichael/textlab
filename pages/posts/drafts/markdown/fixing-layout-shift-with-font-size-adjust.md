@@ -65,7 +65,7 @@ font-size-adjust: ch-width 0.513;
 This will match the fonts pretty closely in width and resolve the horizontal layout shift making things a lot less janky and improving the performance.
 
 <div className="videoPlayer">
-<iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/TO7xAZs1hWQ?si=TO7xAZs1hWQ?rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=TO7xAZs1hWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/TO7xAZs1hWQ?si=TO7xAZs1hWQ?rel=0&amp;controls=0&amp;showinfo=0&amp;playlist=TO7xAZs1hWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 </div>
 
 Depending on your font combinations this could resolve your issues without need for further intervention. However you'll notice in our example, while we have resolved the horizontal shift we still have a vertical shift. At this point you could experiment with other values of `font-size-adjust` to play around with sizing to see if you can get a better match than using `ch-width` or you can combine it with another strategy.
@@ -113,7 +113,7 @@ document.fonts.ready.then(() => {
 This will then apply our "loaded" state to the content and unset our styling for the fallback font. The result is that even though we are switching the font, the page layout does not shift improving the cumulative layout shift and as a result the performance of our page.
 
 <div className="videoPlayer">
-<iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/u_UD2ijtPsQ?si=u_UD2ijtPsQ?rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=u_UD2ijtPsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/u_UD2ijtPsQ?si=u_UD2ijtPsQ?rel=0&amp;controls=0&amp;showinfo=0&amp;playlist=u_UD2ijtPsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 </div>
 
 I haven't come across a tool yet for making the task of working out the values for `font-size-adjust` easier (perhaps I should add that to the TODOs), but for `line-height` and `letter-spacing` you can check out [Font style Matcher](https://meowni.ca/font-style-matcher/) by [Monica Dinculescu](https://twitter.com/notwaldorf).

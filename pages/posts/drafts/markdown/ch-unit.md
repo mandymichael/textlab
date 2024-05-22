@@ -60,7 +60,7 @@ Honk Variable Font Demo" src="//codepen.io/mandymichael/embed/wvZPwma/?height=30
 
 However this really only works with monospaced/fixed fonts where the characters are of equal width. In the case of a proportional font, because the characters are not equal width the length wont necessarily be 25 characters wide; it will be as wide as the width of 25 zeros for that font.
 
-In the example below, you can see some examples across proportional and monospaced fonts. I've set it to `20ch` for demonstration purposes. In a proportional font some characters are typically wider than others, for example in the latin alphabet characters like a "w" or an "m" are wider than an "i" or a "t". As a result number of characters you can fit on a line reduces.
+In the example below, you can see some examples across proportional and monospaced fonts. I've set it to `25ch` for demonstration purposes. In a proportional font some characters are typically wider than others, for example in the latin alphabet characters like a "w" or an "m" are wider than an "i" or a "t". As a result number of characters you can fit on a line reduces.
 
 <div class="codepen"><iframe height="400" style="width: 100%;" scrolling="no" title="CodePen Home
 Honk Variable Font Demo" src="//codepen.io/mandymichael/embed/xxePKaz/?height=300&theme-id=dark&default-tab=result" frameBorder="no"  allowfullscreen="true">
@@ -94,7 +94,7 @@ What you might see happen in your layout is the following.
 3. The switch in font, changes the width because the width of the `ch` unit in Arial font is greater than the `ch` unit of Oswald. Resulting in a layout shift.
 
 <div className="videoPlayer">
-<iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/uW3GCKdcsnY?si=uW3GCKdcsnY?rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=uW3GCKdcsnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="1088" height="599" src="https://www.youtube-nocookie.com/embed/uW3GCKdcsnY?si=uW3GCKdcsnY?rel=0&amp;controls=0&amp;showinfo=0&amp;playlist=uW3GCKdcsnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 </div>
 
 For support right now, you're best option is to not use the `ch` unit if you are experience serious layout shift. Using something like `size-adjust` in the `font-face` declaration wont accomplish what you want because while it can adjust the size of the font it wont change it's properties (like the `ch` width). Instead you need to use the `font-size-adjust` which [does not have great browser support](https://caniuse.com/?search=font-size-adjust), currently only working in Firefox and Safari. It does look to be on the roadmap for [Interop 2024](https://web.dev/blog/interop-2024) though so hopefully we'll be able to use it soon. In the mean time you can enable the flags in chrome, or test in Safari and Firefox.
