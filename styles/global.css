@@ -38,6 +38,10 @@ img {
   font-display: swap;
 }
 
+h1 {
+  font-family: Roslindale;
+}
+
 a {
   color: #782ed5;
   text-decoration: underline;
