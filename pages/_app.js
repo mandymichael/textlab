@@ -13,7 +13,7 @@ function App({ Component, pageProps }) {
       <Head>
         <link
           rel="preload"
-          href="/_next/static/media/RobotoFlexSlice.woff2"
+          href="/_next/static/media/RobotoFlexSlice.6383e8ee.woff2"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
