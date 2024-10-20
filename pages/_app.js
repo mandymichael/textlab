@@ -13,7 +13,7 @@ function App({ Component, pageProps }) {
       <Head>
         <link
           rel="preload"
-          href="./fonts/RobotoFlex.woff2"
+          href="/_next/static/media/RobotoFlex.801b1a15.woff2"
           as="font"
           type="font/woff2"
         />
