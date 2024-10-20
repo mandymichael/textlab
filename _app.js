@@ -10,7 +10,6 @@ function App({ Component, pageProps }) {
           href="/pages/fonts/RobotoFlex.woff2"
           as="font"
           type="font/woff2"
-          crossorigin
         />
       </Head>
       <Component {...pageProps} />
