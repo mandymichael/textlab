@@ -25,7 +25,7 @@ img {
 
 @font-face {
   font-family: Roboto;
-  src: url("./_next/static/media/RobotoFlexSlice.6383e8ee.woff2");
+  src: url("/_next/static/media/RobotoFlexSlice.6383e8ee.woff2");
   weight: 100 1000;
   width: 25 151;
   font-display: optional;
@@ -33,7 +33,7 @@ img {
 
 @font-face {
   font-family: Roslindale;
-  src: url("./_next/static/media/RoslindaleVariable.8bbbeb04.woff2");
+  src: url("/_next/static/media/RoslindaleVariable.8bbbeb04.woff2");
   weight: 700;
   font-display: optional;
 }
