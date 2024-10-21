@@ -1,11 +1,5 @@
 import "../styles/global.css";
-// import localFont from "next/font/local";
 import Head from "next/head";
-
-// const roboto = localFont({ src: "./fonts/RobotoFlex.woff2" });
-// const roslindale = localFont({
-//   src: "./fonts/RoslindaleVariable.woff2",
-// });
 
 function App({ Component, pageProps }) {
   return (
@@ -18,16 +12,14 @@ function App({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <link
+          rel="preload"
+          href="/_next/static/media/RoslindaleVariable.8bbbeb04.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
-      {/* <style jsx global>{`
-        html {
-          font-family: ${roboto.style.fontFamily};
-        }
-
-        h1 {
-          font-family: ${roslindale.style.fontFamily};
-        }
-      `}</style> */}
       <Component {...pageProps} />
     </>
   );
