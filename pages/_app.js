@@ -11,13 +11,13 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        {/* <link
+        <link
           rel="preload"
           href="/_next/static/media/RobotoFlexSlice.6383e8ee.woff2"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
-        /> */}
+        />
       </Head>
       {/* <style jsx global>{`
         html {
