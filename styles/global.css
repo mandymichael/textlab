@@ -25,7 +25,7 @@ img {
 
 @font-face {
   font-family: Roboto;
-  src: url(../pages/fonts/RobotoFlexSlice.woff2);
+  src: url(../pages/fonts/RobotoFlexSlice-subset.woff2);
   weight: 100 1000;
   width: 25 151;
   font-display: swap;
