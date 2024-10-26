@@ -52,6 +52,7 @@
   border-bottom: 1px solid #17171c;
   font-stretch: 25%;
   font-variation-settings: "opsz" 31;
+  font-size-adjust: 0.486;
 }
 
 @media screen and (min-width: 48rem) {
