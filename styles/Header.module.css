@@ -16,6 +16,8 @@
 
 .logoLink {
   display: block;
+  width: 80px;
+  height: 80px;
 }
 
 .logo {
