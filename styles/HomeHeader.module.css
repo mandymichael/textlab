@@ -57,7 +57,7 @@
 @media screen and (min-width: 48rem) {
   .pageHeadingSubtitle {
     margin-top: 2.063em;
-    letter-spacing: 1ch;
+    letter-spacing: 0.01rem;
     padding-top: 1.313em;
     padding-bottom: 1.313em;
   }
