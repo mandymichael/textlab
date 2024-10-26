@@ -27,14 +27,14 @@ img {
   src: url(../pages/fonts/RobotoFlexSlice-subset.woff2);
   weight: 100 1000;
   width: 25 151;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
   font-family: Roslindale;
   src: url(../pages/fonts/RoslindaleDisplay-Bold-subset.woff2);
   weight: 700;
-  font-display: optional;
+  font-display: swap;
 }
 
 a {
