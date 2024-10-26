@@ -52,19 +52,21 @@
   border-bottom: 1px solid #17171c;
   font-stretch: 25%;
   font-variation-settings: "opsz" 31;
-  font-size-adjust: 0.486;
+  font-size-adjust: ch-width 0.321;
+  line-height: 1;
 }
 
 @media screen and (min-width: 48rem) {
   .pageHeadingSubtitle {
     margin-top: 2.063em;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.5rem;
     padding-top: 1.313em;
     padding-bottom: 1.313em;
   }
 }
 
 .intro {
+  display: none;
   max-width: 720px;
   font-weight: 500;
   font-size: clamp(1rem, 2vw + 1rem, 2rem);
@@ -72,6 +74,8 @@
   font-variation-settings: "opsz" 144;
   text-align: center;
   align-self: center;
+  font-size-adjust: 0.321;
+  line-height: 1;
 }
 
 .creator {

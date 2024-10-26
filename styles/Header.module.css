@@ -19,19 +19,15 @@
   width: 80px;
   height: 80px;
   position: relative;
+  top: 0;
 }
 
 .logo {
   width: 80px;
   height: 80px;
+  top: 0;
   display: block;
   position: relative;
-}
-
-@media screen and (max-width: 48rem) {
-  /* .logo {
-    margin-top: -1rem;
-  } */
 }
 
 @media screen and (min-width: 48rem) {
