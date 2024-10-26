@@ -31,11 +31,17 @@ img {
 }
 
 @font-face {
+  font-family: "Times Fallback";
+  src: local("Times New Roman");
+  size-adjust: 114%;
+  ascent-override: 84%;
+}
+
+@font-face {
   font-family: Roslindale;
   src: url(../pages/fonts/RoslindaleDisplay-Bold-subset.woff2);
   weight: 700;
   font-display: swap;
-  size-adjust: 103%;
 }
 
 a {
@@ -62,7 +68,7 @@ h4 {
 }
 
 h1 {
-  font-family: Roslindale, "Times New Roman", serif;
+  font-family: Roslindale, "Times Fallback", serif;
 }
 
 h2 {
@@ -104,7 +110,7 @@ blockquote {
 
   &::before {
     content: "\201C";
-    font-family: Roslindale, "Times New Roman", serif;
+    font-family: Roslindale, "Times Fallback", serif;
     position: absolute;
     font-size: 3em;
     top: -0.2em;
