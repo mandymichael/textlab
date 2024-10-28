@@ -26,14 +26,14 @@ img {
   src: url(../pages/fonts/RobotoCompressed.woff2);
   weight: 100 1000;
   width: 25 151;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
   font-family: Roslindale;
   src: url(../pages/fonts/RoslindaleDisplay-Bold-subset.woff2);
   weight: 700;
-  font-display: swap;
+  font-display: optional;
 }
 
 a {
