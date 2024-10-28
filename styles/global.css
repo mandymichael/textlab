@@ -33,7 +33,7 @@ img {
   font-family: Roslindale;
   src: url(../pages/fonts/RoslindaleDisplay-Bold-subset.woff2);
   weight: 700;
-  font-display: optional;
+  font-display: swap;
 }
 
 a {
