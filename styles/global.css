@@ -23,10 +23,10 @@ img {
 
 @font-face {
   font-family: Roboto;
-  src: url(../pages/fonts/RobotoFlexSlice-subset.woff2);
+  src: url(../pages/fonts/RobotoFlex-SubsetSlicedExtra.woff2);
   weight: 100 1000;
   width: 25 151;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
