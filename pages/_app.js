@@ -9,7 +9,7 @@ function App({ Component, pageProps }) {
           as="font"
           type="font/woff2"
           href="./fonts/RoslindaleDisplay-Bold-subset.woff2"
-          crossOrigin
+          crossOrigin="anonymous"
         />
       </Head>
       <Component {...pageProps} />
