@@ -1,9 +1,12 @@
 import "../styles/global.css";
+import StyledJsxRegistry from "./registry";
 
 function App({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />
+      <StyledJsxRegistry>
+        <Component {...pageProps} />
+      </StyledJsxRegistry>
     </>
   );
 }

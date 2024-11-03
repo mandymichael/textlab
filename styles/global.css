@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, Arial, sans-serif;
   color: #474753;
   background: #fafafa;
   line-height: 1.2;
@@ -20,29 +19,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-@font-face {
-  font-family: Roboto;
-  src: url(../pages/fonts/RobotoFlex-SubsetSlicedExtra.woff2);
-  weight: 100 1000;
-  width: 25 151;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "Times Fallback";
-  src: local("Times New Roman");
-  size-adjust: 114%;
-  ascent-override: 84%;
-}
-
-@font-face {
-  font-family: Roslindale;
-  src: url(../pages/fonts/RoslindaleDisplay-Bold-subset.woff2);
-  weight: 700;
-  font-display: swap;
-}
-
 a {
   color: #782ed5;
   text-decoration: underline;
@@ -64,10 +40,6 @@ h4 {
   font-weight: 569;
   font-stretch: 62%;
   font-variation-settings: "opsz" 39;
-}
-
-h1 {
-  font-family: Roslindale, "Times Fallback", serif;
 }
 
 h2 {
