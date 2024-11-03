@@ -52,7 +52,6 @@
   border-bottom: 1px solid #17171c;
   font-stretch: 25%;
   font-variation-settings: "opsz" 31;
-  font-size-adjust: ch-width 0.321;
   line-height: 1;
 }
 
@@ -74,7 +73,6 @@
   font-variation-settings: "opsz" 144;
   text-align: center;
   align-self: center;
-  font-size-adjust: 0.321;
   line-height: 1;
 }
 
