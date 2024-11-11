@@ -21,21 +21,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* 
-@font-face {
-  font-family: Roboto;
-  src: url(../pages/fonts/RobotoFlex.woff2);
-  weight: 100 1000;
-  width: 25 151;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Roslindale;
-  src: url(../pages/fonts/RoslindaleVariable.woff2);
-  weight: 700;
-  font-display: swap;
-} */
 
 a {
   color: #782ed5;
