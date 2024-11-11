@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className={HeaderStyles.headerContainer}>
-      <Link href="/" class={HeaderStyles.logoLink}>
+      <Link href="/" className={HeaderStyles.logoLink}>
         <Image
           src="/images/Logo.svg"
           alt="Text Lab"

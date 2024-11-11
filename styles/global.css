@@ -1,3 +1,11 @@
+/*for tools pull out into new file later*/
+:root {
+  --statsGap: 2em;
+  --stats-line-offset: calc(var(--statsGap) / 2);
+  --stats-line-thickness: 2px;
+  --stats-line-color: red;
+}
+
 body {
   padding: 0;
   margin: 0;
