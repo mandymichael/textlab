@@ -4,7 +4,6 @@ import TextStyles from "../../styles/Text.module.css";
 import HomeStyles from "../../styles/Home.module.css";
 import ContainerStyles from "../../styles/Container.module.css";
 import CSSTextStatsStyles from "../../styles/CSSStats.module.css";
-import PostStyles from "../../styles/PostContent.module.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import Header from "../../components/header";
